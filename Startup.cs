@@ -52,7 +52,7 @@ namespace CodeSnippetSaver
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Code/Error");
             }
 
             app.UseStaticFiles();
@@ -61,7 +61,7 @@ namespace CodeSnippetSaver
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Code}/{action=Index}/{id?}");
             });
         }
     }
