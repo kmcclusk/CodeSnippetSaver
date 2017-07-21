@@ -1,0 +1,8 @@
+C:\Users\Adam\desktop\homework\CodeSnippetSaver\bin\Debug\netcoreapp1.1\CodeSnippetSaver.deps.json
+C:\Users\Adam\desktop\homework\CodeSnippetSaver\bin\Debug\netcoreapp1.1\CodeSnippetSaver.runtimeconfig.json
+C:\Users\Adam\desktop\homework\CodeSnippetSaver\bin\Debug\netcoreapp1.1\CodeSnippetSaver.runtimeconfig.dev.json
+C:\Users\Adam\desktop\homework\CodeSnippetSaver\bin\Debug\netcoreapp1.1\CodeSnippetSaver.dll
+C:\Users\Adam\desktop\homework\CodeSnippetSaver\bin\Debug\netcoreapp1.1\CodeSnippetSaver.pdb
+C:\Users\Adam\desktop\homework\CodeSnippetSaver\obj\Debug\netcoreapp1.1\CodeSnippetSaver.AssemblyInfo.cs
+C:\Users\Adam\desktop\homework\CodeSnippetSaver\obj\Debug\netcoreapp1.1\CodeSnippetSaver.dll
+C:\Users\Adam\desktop\homework\CodeSnippetSaver\obj\Debug\netcoreapp1.1\CodeSnippetSaver.pdb
