@@ -50,7 +50,7 @@ namespace CodeSnippetSaver.Controllers
         // POST: CodeSnippets/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Text")] Code snippet)
+        public async Task<IActionResult> Create([Bind("ID,Language,Text")] Code snippet)
         {
             if (ModelState.IsValid)
             {
@@ -80,7 +80,7 @@ namespace CodeSnippetSaver.Controllers
         // POST: CodeSnippets/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Text")] Code snippet)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Language,Text")] Code snippet)
         {
             if (id != snippet.ID)
             {

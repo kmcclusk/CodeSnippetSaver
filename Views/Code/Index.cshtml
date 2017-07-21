@@ -6,19 +6,26 @@
 
 <h5 style="padding-top:3%">Index</h5>
 
-<table class="table">
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Text)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a style="color: #d04747" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div>
+    <table class="table">
+        <tbody>
+            @foreach (var item in Model) {
+                <div>
+                    <p>
+                        <td style="max-width:500px; min-width:300px;">
+                            <pre>
+                                <code>
+                                    @Html.DisplayFor(modelItem => item.Text)
+                                </code>
+                            </pre>
+                        </td>
+                    </p>
+                    <td style="padding-left:20px;">
+                        <a style="text-decoration: none;" asp-action="Edit" asp-route-id="@item.ID">Edit</a><br>
+                        <a style="color: #d04747; text-decoration:none;" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    </td>
+                </div>
+            }
+        </tbody>
+    </table>
+</div>
