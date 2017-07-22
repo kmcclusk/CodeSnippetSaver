@@ -15,20 +15,18 @@
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
-    <style>
-       
-    </style>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button>
-                <a asp-area="" asp-controller="Code" asp-action="Index" class="navbar-brand">Code Snip</a>
+                <a style="font-size: 25px" asp-area="" asp-controller="Code" asp-action="Index" class="navbar-brand">Code Snip</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Code" asp-action="Create">+</a></li>
+                    <li><a style="font-size: 25px;" asp-area="" asp-controller="Code" asp-action="Create">+</a></li>
+                    <li><a class="glyphicon glyphicon-search" style="font-size: 15px;" asp-area=""></a></li>
                 </ul>
             </div>
         </div>
